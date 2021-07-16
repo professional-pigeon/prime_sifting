@@ -1,12 +1,5 @@
 require ('pry')
 
-# (2..50) 
-# if remainder = 0 then remove
-#   do this until prime counter = n
-
-# (2,3,4,5,6,7 number)
-# prime = 2
-
 class Prime
   attr_reader(:numbers_array, :numbers)
   def initialize(number)
